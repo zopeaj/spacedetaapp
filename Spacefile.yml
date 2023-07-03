@@ -1,0 +1,8 @@
+v: 0
+micros: 
+  - name: fastapi-deta
+    src: .
+    engine: python3.10.6
+    public_routes: 
+      - "/*"
+    run: uvicorn main:app 
